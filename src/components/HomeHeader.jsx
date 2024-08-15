@@ -6,10 +6,10 @@ export default function HomeHeader() {
   return (
     <header className="flex justify-end p-5">
         <div className="flex space-x-4 items-center">
-            <Link href={"https://mail.google.com"}>
+            <Link className="hover:underline" href={"https://mail.google.com"}>
             Gmail
             </Link>
-            <Link href={"https://image.google.com"}>
+            <Link href={"https://image.google.com"} >
                 Images
             </Link>
             <TbGridDots className="bg-transparent hover:bg-gray-200 text-4xl rounded-full p-2"/>
